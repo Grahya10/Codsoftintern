@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(14, 14, 45);
+    color:white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(203, 97, 132);
+    color:white;
+    margin: 0;
+    border:0;
+    height: 50px;
+    width:100%;
+    margin-left: 0;
+    padding-left: 25px;
+}
+.heading{
+    font-size: 40px;
+    font-weight: solid;
+    font-style: Arial;
+    text-align: center;
+    
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 65%; 
+    margin-top: 10px;
+}
+.nav_bar li a{
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+    padding-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+.nav_bar li a:hover{
+    background-color: rgb(137, 43, 59);
+    border-radius: 8px;
+}
+.details h1{
+    font-size: 80px;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.details p{
+    font-size: 20px;
+    margin-left: 80px;
+    width: 800px;
+    align-items: left;
+    margin-top: 50px;
+    justify-content: space-between;
+    font-style: Arial;
+}
+.details img {
+    float:right;
+    width: 400px;
+    margin-top: 0;
+}
+.more-info{
+    background-color: rgb(203, 97, 132);
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-top: 50px;
+    padding: 8px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+}
+.more-info:hover{
+    background-color: rgb(137, 43, 59);
+
+}
+.courses{
+    background-color:rgb(203, 97, 132);
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-top: 50px;
+    padding: 8px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    width: 50%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.boxes .box {
+    margin: 10px 50px;
+    width: 140px;
+    text-align: center;
+    border-radius:12px;
+    padding: 20px 50px;
+    border-style:ridge;
+    cursor: default;
+
+}
+.topic a{
+    color:rgb(203, 97, 132);
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.label1{
+    margin-top: 55px;
+    font-style: Arial;
+    font-size: 30px;
+    margin: 10px 50px;
+
+}
+.input1{
+    margin: 10px 50px;
+   
+
+}
+.label2{
+    margin-top: 20px;
+    font-style: Arial;
+    font-size: 30px;
+    margin: 10px 50px;
+
+}
+.input2{
+    margin: 10px 50px;
+}
+.label3{
+    margin-top: 20px;
+    font-style: Arial;
+    font-size: 30px;
+    margin: 10px 50px;
+
+}
+.input3{
+    margin: 10px 50px;
+}
+.Contactus{
+    float:inline-start;
+    font-size: 30px;
+    display:block;
+    margin-top: 20px;
+    font-style: Arial;
+    font-size: 30px;
+    margin: 10px 50px;
+}
+.address{
+    margin-top: 70px;
+}
+
+
+
+
