@@ -1,0 +1,356 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+}
+body{
+    background-color: black;
+    color:white;
+}
+.header{
+    width:100%;
+    height:100vh;
+    background-image:url(https://glivera-team.com/wp-content/uploads/2019/11/fronend-prt.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 5%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 0;
+}
+.logomain{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:10px 20px;
+}
+nav ul li a{
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: rgb(91, 205, 91);
+
+}
+.header-text{
+    margin-top: 20%;
+    font-size:30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+/*------------about------------*/
+.about{
+    padding:80px 0px ;
+    color: #ababab;
+    text-align: center;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-2{
+    flex-basis: 50%;
+}
+.picture{
+    margin-top: 30px;
+    float: right;
+    width: 300px;
+    border-radius: 150px;
+    background-blend-mode:hue;
+    border-style:groove;
+}
+.sub-title{
+    font-size:60px;
+    font-weight: 600;
+    color: white;
+}
+.about-col-1 p{
+    display: inline-block;
+    text-align:center;
+    margin-top: 20px;
+    width:500px;
+    
+}
+.tab-titles{
+    display: flex;
+    margin: 50px 0 20px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links:hover{
+    color: rgb(91, 205, 91);
+    transition: 0.5s;
+}
+.tab-links .active-link::after{
+    width:50%;
+}
+
+
+.tab-contents ul li{
+    list-style: none;
+    margin: 5px 0;
+}
+.tab-contents ul li span{
+    font-size: 14px;
+    color: rgb(91, 205, 91) ;
+}
+.tab-contents{
+    display: block;
+    text-align: left;
+}
+/*-----------portfolio-----------------*/
+#portfolio{
+    padding: 50px 0;
+}
+.work-list{
+    display:flex;
+    flex-direction:row;
+    margin-top: 50px;
+    
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow:hidden;
+    display: flex;
+}
+
+.work .img1{
+    width:100%;
+    border-radius:10px;
+    display: block;
+    float: left;
+    flex-basis: 40%;
+    margin-left: 140px;
+
+}
+.work .img2{
+    width:100%;
+    border-radius:10px;
+    display: block;
+    float: right;
+    flex-basis: 90%;
+    margin-left: 240px;
+}
+.layer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: wrap;
+    align-items: center;
+
+}
+.h1{
+    width:100%;
+    border-radius:10px;
+    display: flex;
+    float: left;
+    flex-basis: 10%;
+    margin-left: 140px;
+    color:rgb(91, 205, 91) ;
+
+}
+.h2{
+    width:100%;
+    border-radius:10px;
+    display: flex;
+    float: right;
+    flex-basis: 10%;
+    margin-left: 140px;
+    color:rgb(91, 205, 91);
+
+}
+.layer p{
+    margin-top:  25px;
+    margin-left: 0;
+}
+.seemore{
+    
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+    padding: 8px;
+    color:rgb(91, 205, 91);
+    border-color:rgb(91, 205, 91);
+    border-style: solid;
+    transition: 0.05s;
+}
+.seemore:hover{
+    background-color:rgb(91, 205, 91);
+    color: white;
+    cursor: pointer;
+}
+/*----------contact-----------*/
+.contact-left{
+    flex-basis:35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+
+}
+.contact-left p i{
+    color:rgb(100, 203, 100);
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 30px;
+    display:inline-block;
+    transition:transform 0.5s;
+    color:green;
+}
+.social-icons a:hover{
+    color:green;
+    transform:translateY(-5px);
+
+}
+.btn.btn2{
+    display: inline-block;
+    background-color: rgb(100, 203, 100);
+    text-decoration: none;
+    color:white;
+    padding:10px;
+    margin-top: 10px;
+}
+.contact-right form{
+    width:100%;
+}
+form input, form textarea{
+    width:100%;
+    border:0;
+    outline:none;
+    background:#262626;
+    padding:15px;
+    margin:15px 0;
+    color:#fff;
+    font-size:18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor:pointer;
+}
+.copyright{
+    width:100%;
+    text-align:center;
+    padding:25px 0;
+    background: #262626;
+    font-weight:300;
+    margin-top: 20px;
+
+}
+.copyright i{
+    color:rgb(100, 203, 100);
+}
+/*------------css for small screen-----------*/
+nav .fas{
+    display:none;
+}
+@media only screen and(max-width:600px){
+    .header{
+        background-image: url(https://glivera-team.com/wp-content/uploads/2019/11/fronend-prt.jpg);
+
+    }
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size:30px;
+    }
+    nav .fas{
+        display:block;
+        font-size: 25px;
+    }
+    nav ul{
+        background-color:rgb(100, 203, 100) ;
+        position: fixed;
+        top:0;
+        right:-200px;
+        width:200px;
+        height:100vh;
+        padding-top:50px ;
+        z-index: 2;
+        transition: right 0.5s;
+
+    }
+    nav ul li{
+        display: block;
+        margin:25px;
+
+    }
+    nav ul .fas{
+        position:absolute;
+        top:25px;
+        left:25px;
+        cursor:pointer;
+
+
+    }
+    .sub-title{
+        font-size: 40px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis:100%
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+
+    }
+    .contact-left,.contact-right{
+        flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 0.14px;
+    }
+
+}
